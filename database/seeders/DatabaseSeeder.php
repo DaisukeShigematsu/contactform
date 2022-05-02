@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     private const SEEDERS = [
-        UserSeeder::class,
+        ContactsSeeder::class,
     ];
 
 

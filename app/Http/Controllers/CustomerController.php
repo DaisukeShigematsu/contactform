@@ -9,7 +9,7 @@ class CustomerController extends Controller
 {
     public function index()
     {
-        $items = DB::select('select * from customer');
+        $items = DB::select('select * from people');
         return view('index', ['items' => $items]);
     }
 }
